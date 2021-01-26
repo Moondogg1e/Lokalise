@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokalise</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css"/>    
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <header>
+        <a class="logo" href="#"><img src="images/logo.png" alt="logo"></a>
+        <nav >
+            <ul class="nav_links">             
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Case Studies</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="header_btns">
+            <button class="white_btn" id="login_btn">Login</button>
+            <button class="orange_btn" id="try_free_btn">Try it free</button>
+            <button class="white_btn menu_btn"> Menu</button>
+        </div>
+    </header>
+    <hr>
+    <div class="overlay">
+        <a class="close">&times;</a>
+        <div class="overlay_content">
+            <a href="#">Product</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Case Studies</a>
+            <a href="#">Resources</a>
+            <a href="#">Login</a>
+            <a href="#">Try it free</a>
+        </div>
+    </div>
+
+    <div id="scroll_to_top" onclick="up()"> 
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <div class="first_banner wow animate__animated animate__fadeInUpBig ">
+        <div class="first_banner_text">
+            <h1>Accelerate localization from code to delivery</h1>
+            <h4>A localization and translation management platform
+                 for agile teams. Embrace automation, workflow transparency, and fast project delivery.</h4>
+            <div class="first_banner_btns">
+                <button class="orange_btn">Try it free</button>
+                <button class="white_btn">Book a demo</button>
+            </div>
+            <h4>Try all features for 14 days · No credit card required</h4>
+        </div>
+        <!-- <div class=""> -->
+            <img class="first_banner_photo" src="images/first_banner_photo.png" alt="">
+        <!-- </div> -->
+        
+    </div>
+
+    <div class="second_banner wow animate__animated animate__fadeInLeftBig ">
+        <h2>The preferred localization tool of 1500+ companies</h2>
+        <ul>
+            <li><img src="images/company1.png" alt=""></li>
+            <li><img src="images/company2.png" alt=""></li>
+            <li><img src="images/company3.png" alt=""></li>
+            <li><img src="images/company4.png" alt=""></li>
+            <li><img src="images/company5.png" alt=""></li>
+            <li><img src="images/company6.png" alt=""></li>
+        </ul>
+    </div>
+
+    <div class="advantages">
+        <ul>
+            <li>
+                <div class="advantage_card_text wow animate__animated animate__fadeInLeft">
+                    <h2 class="advantage_title">Control the localization process</h2>
+                    <h4>Collaborate with your team in a single workspace. Add and assign tasks, track progress,
+                         and enjoy a seamless localization workflow where you know who is doing what and when.</h4>
+                    <a href="#">Start now</a>
+                </div>
+                <img class="advantage_card_img wow animate__animated animate__fadeInRight" src="images/project_app.png" alt="">
+            </li>
+            <li>  
+                <div class="advantage_card_text wow animate__animated animate__fadeInRight">
+                    <h2 class="advantage_title">Shorten time to market</h2>
+                    <h4>Localize your product in parallel with the development cycle. Use the Adobe XD, 
+                        Figma, and Sketch plugins to start working on translations as soon as the product design is ready.
+                         No more idle waiting.</h4>
+                    <a href="#">Start now</a>
+                 </div>              
+                <img class="advantage_card_img wow animate__animated animate__fadeInLeft" src="images/shorten_time_to_market.png" alt="">
+                
+            </li>
+            <li>
+                <div class="advantage_card_text wow animate__animated animate__fadeInLeft">
+                    <h2 class="advantage_title">Ensure quality</h2>
+                    <h4>Use built-in tools — e.g. translation memory, machine translation,
+                         and QA checks — to enhance the quality and cohesion of translations.
+                         Add product screenshots for context and use the in-context editors for instant previews.</h4>
+                    <a href="#">Start now</a>
+                </div>
+                <img class="advantage_card_img wow animate__animated animate__fadeInRight" src="images/ensure_quality.png" alt="">
+            </li>
+            <li>
+                <div class="advantage_card_text wow animate__animated animate__fadeInRight">
+                    <h2 class="advantage_title">Less work for developers</h2>
+                    <h4>Eliminate the hassle of localization and let developers get back to their main tasks.
+                         Save hours with the powerful API, CLI, mobile SDKs, and integrations with  GitHub, Bitbucket, 
+                         JIRA, and more.</h4>
+                    <a href="#">Start now</a>
+                </div>
+                <img class="advantage_card_img wow animate__animated animate__fadeInLeft" src="images/less_work_for_developers.png" alt="">
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="what_can_you_localize ">
+        <h1>What can you localize with Localise?</h1>
+        <div class="wow animate__animated animate__slideInLeft">
+            <div class="what_can_you_localize_card">
+                <img src="images/web_apps.png" alt="">
+                <h2>Web apps</h2>
+                <h4>Any kind of web apps — backend, frontend, single page, blogs — you name it.</h4>
+            </div>
+
+            <div class="what_can_you_localize_card">
+                <img src="images/mobile_apps.png" alt="">
+                <h2>Mobile apps</h2>
+                <h4>Upload any mobile platform language files. Embed Lokalise iOS SDK or Lokalise Android SDK if you prefer.</h4>
+            </div>
+
+            <div class="what_can_you_localize_card">
+                <img src="images/games.png" alt="">
+                <h2>Games</h2>
+                <h4> Our cloud software is trusted by many leading game developers around the world.</h4>
+            </div>
+
+            <div class="what_can_you_localize_card">
+                <img src="images/documents.png" alt="">
+                <h2>Documents</h2>
+                <h4>Upload your DOCX and static HTML files.</h4>
+            </div>
+
+            <div class="what_can_you_localize_card">
+                <img src="images/marketing.png" alt="">
+                <h2>Marketing e-mails</h2>
+                <h4>Integrate with Salesforce Marketing Cloud (coming soon) or translate static e-mails.</h4>
+            </div>
+
+            <div class="what_can_you_localize_card">
+                <img src="images/iot.png" alt="">
+                <h2>IoT</h2>
+                <h4>We support most popular localization file formats.</h4>
+            </div>
+        </div>        
+    </div>
+
+    <div class="boost_your_team">
+        <h1 class="wow animate__animated animate__zoomIn">Boost your localization team’s productivity tenfold</h1>
+        <div class="boost_your_team_cards   wow animate__animated animate__zoomIn">
+            <div class="boost_your_team_card">
+                <img class="boost_your_team_card_img" src="images/managers.png" alt="">
+                <h2>Managers</h2>
+                <h4>Update existing and launch new features and products while simultaneously localizing them in multiple languages. 
+                    Streamline your team's workflow, maximize productivity, and speed up expansion to other markets.</h4>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="boost_your_team_card">
+                <img class="boost_your_team_card_img" src="images/developers.png" alt="">
+                <h2>Developers</h2>
+                <h4>Set up an integration with your code repository or your own custom SDK via Lokalise's powerful API.
+                     Do that once, and every time you make changes in the code, they'll be automatically imported to Lokalise 
+                     for translation.</h4>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="boost_your_team_card">
+                <img class="boost_your_team_card_img" src="images/translators.png" alt="">
+                <h2>Translators</h2>
+                <h4>Eliminate double-work and neverending revisions with visual context (screenshots) and live previews.
+                     Improve the quality and speed of your translations with built-in CAT tools, like autocomplete,
+                      inline machine translation, and translation memory.</h4>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="dude_in_suit">
+        <div class="wow animate__animated animate__fadeInLeft">
+            <h3 class="dude_in_suit_text">“Lokalise has turned a task we were dreading into an absolute pleasure.
+             Great platform, intuitive UX, powerful API. The automatic text recognition for screenshots has been a lifesaver, 
+             and over-the-air updates are the icing on the cake.”</h3>
+            <span> Edward Cooper, Chief Mobile Officer</span><br>
+            <img src="images/revoult.png" alt="Rlogo">
+        </div>
+        <img class="dude_in_suit_img wow animate__animated animate__fadeInRight" src="images/dude_in_suit_img.png" alt="">
+    </div>
+
+    <div class="cake_banner wow animate__animated animate__fadeInUp">
+        <img src="images/cake.png" alt="cake">
+        <h3>The most-loved translation management software</h3>
+        <div class="vertical_line"></div>
+        <img src="images/users_love_us.png" alt="users_love_us">
+        <img src="images/highest_rated.png" alt="highest_rated">
+    </div>
+
+    <div class="integrate_localise_banner">
+        <h1 class="wow animate__animated animate__fadeIn">Integrate Lokalise with your work tools</h1>
+        <h4 class="wow animate__animated animate__fadeIn"> Automate processes, eliminate routine tasks, and track progress with ease.</h4>
+        <img class="integrate_localise_img wow animate__animated animate__zoomIn" src="images/integrate_lokalise_img.png" alt="">
+        <div>
+            <button class="orange_btn wow animate__animated animate__fadeIn"> See all integrations</button>
+        </div>        
+    </div>
+
+    <div class="try_it_free_banner">
+        <div class="try_it_free_banner_content wow animate__animated animate__zoomIn">
+            <h1>Localization made easy <br> Why wait?</h1>
+            <h4>Try for free or let us show you how it works.</h4>
+            <button class="black_btn try_it_free">Try it free</button>
+        </div>        
+    </div>
+
+    <footer>
+        <div class="footer_content wow animate__animated animate__fadeInUp">
+            <ul>
+                <li><h3>Case Studies</h3></li>
+                <li><img class="case_studies_img" src="images/case_studies.png" alt=""> </li>            
+                <li><img src="images/specialized_logo.png" alt=""></li>
+                <li><h4>Riding towards global success with a 100% teammate enthusiasm</h4></li>
+                <li><a href="#">Read more</a></li>
+            </ul>
+            <ul>
+                <li><h4>Product</h4></li>
+                <li> <a href="#"> <h5>For developers</h5></a></li>
+                <li> <a href="#"> <h5>For managers</h5></a></li>
+                <li> <a href="#"> <h5>For translators</h5></a></li>
+                <li> <a href="#"> <h5>For designers</h5></a></li>
+                <li> <a href="#"> <h5>Integrations</h5></a></li>
+                <li> <a href="#"> <h5>Security</h5></a></li>
+                <li> <a href="#"> <h5>Pricing</h5></a></li>
+                <li> <a href="#"> <h5>Automations</h5></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h4> Support</h4></a></li>
+                <li><a href="#"><h5>Contact</h5></a></li>
+                <li><a href="#"><h5>Documentation</h5></a></li>
+                <li><a href="#"><h5>Status</h5></a></li>
+                <li><a href="#"><h5>Product Updates</h5></a></li>
+                <li><a href="#"><h5>CLI Tool</h5></a></li>
+                <li><a href="#"><h5>API Reference</h5></a></li>
+                <li><a href="#"><h5>iOS and Android SDK</h5></a></li>
+                <li><a href="#"><h5>Supported File Formats</h5></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h4>Company</h4></a></li>
+                <li><a href="#"><h5>About</h5></a></li>
+                <li><a href="#"><h5>Blog</h5></a></li>
+                <li><a href="#"><h5>Careers | We`re Hiring</h5></a></li>
+                <li><a href="#"><h5>Case Studies</h5></a></li>
+                <li><a href="#"><h5>Media Kit</h5></a></li>
+            </ul>
+            <ul>
+                <li><a href="#"><h4>Legal</h4></a></li>
+                <li><a href="#"><h5>Terms of Service</h5></a></li>
+                <li><a href="#"><h5>Privacy Policy</h5></a></li>
+                <li><a href="#"><h5>Cookie Policy</h5></a></li>
+                <li><a href="#"><h5>Privacy Shield</h5></a></li>
+                <li><a href="#"><h5>DPA</h5></a></li>
+                <li><a href="#"><h5>List of Sub-processors</h5></a></li>
+                <li><a href="#"><h5>Candidates Privacy Notice</h5></a></li>
+            </ul>
+            <hr>
+        </div>        
+    </footer>
+
+    <div class="copyright ">
+        <div class="copyright_content wow animate__animated animate__fadeInDown">
+            <div>
+                <img src="images/lokalise.png" alt="logo">                
+                <span>Localization workflow for your web and mobile apps, games and digital content.</span>
+            </div>     
+    
+            <div>
+                <span>©2001-2020 <br> All rights reserved</span>
+            </div>
+        </div>        
+    </div>
+
+    <script type="text/javascript" src="mobile.js"></script>
+    <script src="wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
