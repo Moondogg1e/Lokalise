@@ -16,9 +16,9 @@ menuClose.addEventListener('click', ()=>{
 let scrollUp = document.getElementById("scroll_to_top");
 
 
-var t;
+let t;
 function up() {
-	var top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+	let top = Math.max(document.body.scrollTop,document.documentElement.scrollTop);
 	if(top > 0) {
 		window.scrollBy(0,-150);
 		t = setTimeout('up()',20);
