@@ -13,11 +13,13 @@ header{
 }
 
 h1{
-    font-size: 4.6vw;
+    /* font-size: 4.6vw; */
+    font-size: 70px;
 }
 
 h2{
-    font-size: 3.2vw;
+    /* font-size: 3.2vw; */
+    font-size: 50px;
 }
 
 h3{
@@ -236,6 +238,8 @@ a:hover{
     /* margin-left: -50px; */
 }
 
+/* Second Banner */
+
 .second_banner{
     text-align: center;
     background-color: #FF9C7D;
@@ -258,6 +262,8 @@ a:hover{
 .second_banner ul li{
     margin: 20px;
 }
+
+/* Advantages */
 
 .advantages{
     margin-top: 100px;
@@ -304,6 +310,8 @@ a:hover{
     max-width: 620px;
 }
 
+/* What can you localize */
+
 
 .what_can_you_localize{
     background-color: #FFF8E4;
@@ -330,6 +338,8 @@ a:hover{
 .what_can_you_localize_card h2{
     margin: 15px;
 }
+
+/* Boost Your Team */
 
 .boost_your_team{
     margin-top: 150px;
@@ -364,10 +374,13 @@ a:hover{
 }
 
 .boost_your_team_card>a{
-    font-size: 1.3vw;
+    font-size: 20px;
     text-decoration: underline;
     font-weight: 500;
 }
+
+
+/* Dude in suit */
 
 .dude_in_suit{
     margin-top: 150px;
@@ -393,23 +406,33 @@ a:hover{
     max-height: 310px;
 }
 
+/* Cake Banner */
+
 .cake_banner{
     background-color: #DABC98;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 .cake_banner *{
-    padding: 50px 0;
+    padding: 50px 10px;
 }
 
+
+
 .vertical_line{
-    width: 1px; 
+    max-width: 1px; 
+    padding: 50px 0; 
+    width: 1px;
     background-color: black; 
     height: 50px; 
     float: left;
 }
+
+
+/* Integrate Lokalise */
 
 
 .integrate_localise_banner{
@@ -442,6 +465,7 @@ a:hover{
     margin-top: 40px;
 }
 
+/* Try It Free */
 
 .try_it_free_banner{
     margin-top: 160px;
@@ -552,13 +576,8 @@ footer hr{
 
 
 @media only screen and (max-width: 450px){
-    .overlay{
-        font-size: 20px;
-    }
-    .overlay .close{
-        font-size: 40px;
-        top: 15px;
-        right: 35px;
+    .overlay a{
+        font-size: 20px !important;
     }
     .header_btns{
         justify-content: center;
@@ -571,7 +590,25 @@ footer hr{
     #login_btn, #try_free_btn{
         display: none;
     }
-    
+    .overlay_active{
+        width: 100%;
+    }
+    .overlay a{
+        font-size: 40px;
+    }
+    .overlay .close{
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+
+
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 35px;
+    }
 }
 
 @media only screen and (max-width: 1200px){

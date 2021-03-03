@@ -2,6 +2,7 @@ const doc= document;
 const menuOpen = doc.querySelector(".menu_btn");
 const menuClose = doc.querySelector(".close");
 const overlay = doc.querySelector(".overlay");
+const overlayContainer = doc.querySelector('.overlay_container')
 
 
 menuOpen.addEventListener('click', ()=>{
@@ -11,7 +12,6 @@ menuOpen.addEventListener('click', ()=>{
 menuClose.addEventListener('click', ()=>{
     overlay.classList.toggle("overlay_active");
 })
-
 
 let scrollUp = document.getElementById("scroll_to_top");
 
